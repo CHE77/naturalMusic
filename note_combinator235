@@ -1,0 +1,19 @@
+'''
+note combinator 2 3 5
+
+'''
+
+import math
+
+for a in range(-8,9):
+    #print(a, end=', ')
+    for b in range(-8,9):
+        # print(b, end=', ')
+         for c in range(-8,9):
+           # print(c, end=', ')
+           n = math.pow(2, a)*math.pow(3, b)*math.pow(5, c)
+           if 1 < n < 2:
+               # TODO: write code...
+               print ("2**,", a, ", 3**,",b,", 5**,", c, ",n = ,",n)
+               #print(math.pow(2, a))
+               
